@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.progressBar{
+    width: 0px;
+    height: 0px;
+    background-color: rgb(6, 12, 101);
+    animation: progress 0.7s ease-in-out 1;}
+@keyframes progress{
+    0%{width: 0px;
+    height: 2.3px;}
+    70%{width: 70vw;
+    height: 2.3px;}
+    100%{width: 99vw;
+    height: 2.3px;}}
+header{background-attachment: fixed;}
+
+.flipimg {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header img {
+  height: 17px;
+  display: flex;
+  padding-left: 23px;
+}
+nav {
+  display: flex;
+}
+nav ul {
+  display: flex;
+  height: 7vh;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding-left: 23px;
+}
+nav ul li a {
+  color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: rgb(6, 10, 104);
+  font-weight: bold;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  max-width: 150px;
+  height: 15px;
+  border-radius: 3px;
+  margin: 0 10px 0 63px;
+  text-align:end;
+}
+
+.container {
+  max-height: calc(300vh - 7vh - 7vh);
+  margin:20px auto ;
+
+}
+.avengers{
+     height: 40vh;
+    width: 40vw;
+    margin: 5px auto;
+    overflow: hidden;}
+.avengers img{ height: 40vh;
+  width: 40vw;}
+
+.card{
+  background-color: rgb(224, 224, 190);
+  max-width:70vw;
+margin:20px auto 20px auto;
+padding:0 18px ;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+.cards{display: flex;
+justify-content:space-between;
+overflow: scroll; /* after reducing width the overflow image get by scroll*/}
+.view{display: flex;
+justify-content: space-between;}
+.viewall{display: flex;
+  background-color: rgb(61, 61, 242);
+border-radius: 5px;
+padding-left: 3px;}
+.card-item{
+  display:inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 4px;
+margin: 4px;
+border: 2px solid blue;
+border-radius: 5px;}
+.prize{text-align:center;
+margin: 1px;}
+.get{color: blue;}
+footer {
+  height: 4.5vh;
+  color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;}
+
+.color {
+  background-color: rgb(15, 99, 232);
+}
+.divide{width: 75vw;
+margin:auto ;}
